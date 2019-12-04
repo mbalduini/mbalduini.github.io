@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Marco Balduini"
   avatar : "/img/mb.jpeg"
-  bio    : "Founder and CEO of Quantia Consulting| PhD from PoliMI"
+  bio    : "PhD from PoliMI - Founder and CEO of Quantia Consulting"
   links:
     - label: "Quantia Consulting"
       icon: "fas fa-fw fa-link"
