@@ -64,7 +64,7 @@ author:
   links:
     - label: "Quantia Consulting"
       icon: "fas fa-fw fa-link"
-      url: "https://www.quantiaconsulting.com"
+      url: "http://www.quantiaconsulting.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/balducci85"
@@ -76,7 +76,7 @@ footer:
     links:
     - label: "Quantia Consulting"
       icon: "fas fa-fw fa-link"
-      url: "https://www.quantiaconsulting.com"
+      url: "http://www.quantiaconsulting.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/balducci85"
