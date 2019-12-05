@@ -4,7 +4,7 @@ title: "Awards"
 author_profile: true
 ---
 
-###IEEE Multimedia Best Paper Award 2016
+### IEEE Multimedia Best Paper Award 2016
 
 The paper "City Sensing: Fusing City Data for Visual Storytelling" has been selected as the winner of the “2016 IEEE Multimedia Best Paper Award” by the IEEE MultiMedia Editorial Board
 
