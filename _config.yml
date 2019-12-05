@@ -57,38 +57,17 @@ author:
   bio    : "PhD from PoliMI - Founder and CEO of Quantia Consulting"
   links:
     - label: "Quantia Consulting"
-      icon: "fas fa-fw fa-link"
-      url: "http://www.quantiaconsulting.com"
-    - label: "Quantia Consulting"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:marco.balduini@quantiaconsulting.com"
-    - label: "PoliMI"
-      icon: "fas fa-fw fa-link"
-      url: "http://www.polimi.it"
     - label: "Polimi"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:marco.balduini@polimi.it"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/balducci85"
+    - label: "Linkedin"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/mbalduini"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mbalduini"
-
-footer:
-    links:
-    - label: "Quantia Consulting"
-      icon: "fas fa-fw fa-link"
-      url: "http://www.quantiaconsulting.com"
-    - label: "PoliMI"
-      icon: "fas fa-fw fa-link"
-      url: "http://www.polimi.it"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/balducci85"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/mbalduini"
+      url: "https://github.com/mbalduini"  
 
 defaults:
   # _pages
