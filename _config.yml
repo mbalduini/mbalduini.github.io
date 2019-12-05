@@ -57,6 +57,9 @@ author:
   bio    : "PhD from PoliMI - Founder and CEO of Quantia Consulting"
   links:
     - label: "Quantia Consulting"
+      icon: "fas fa-fw fa-link"
+      url: "http://www.quantiaconsulting.com"
+    - label: "Quantia Consulting"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:marco.balduini@quantiaconsulting.com"
     - label: "Polimi"
