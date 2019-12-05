@@ -1,5 +1,5 @@
 ---
-permalink: /publications/
-title: "Publications"
+permalink: /projects/
+title: "Projects"
 author_profile: true
 ---
