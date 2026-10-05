@@ -44,9 +44,12 @@ author:
   avatar : "/assets/images/marco-balduini.jpg"
   bio    : "Data & AI practitioner. PhD, Politecnico di Milano. CEO of Quantia Consulting, co-founder & COO of Motus ml."
   links:
-    - label: "Email"
+    - label: "Email (Quantia)"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:marco.balduini@quantiaconsulting.com"
+    - label: "Email (Motus ml)"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:marco.balduini@motusml.com"
     - label: "Quantia Consulting"
       icon: "fas fa-fw fa-building"
       url: "https://www.quantiaconsulting.com"
