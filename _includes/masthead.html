@@ -1,0 +1,54 @@
+{%- comment -%}
+  Overrides the theme's masthead.html (Minimal Mistakes 4.28.1): the menu and the site
+  title link follow the page language, and a language switcher is added. The switcher
+  points to the other language's home page; a script in head/custom.html retargets it
+  to the translated version of the current page (from the hreflang links).
+{%- endcomment -%}
+{% assign locale = include.locale | default: site.locale %}
+{% assign lang = locale | slice: 0, 2 %}
+{% if lang == "it" %}{% assign nav = site.data.navigation.main_it %}{% else %}{% assign nav = site.data.navigation.main %}{% endif %}
+{% if lang == "it" %}{% assign other = "en" %}{% else %}{% assign other = "it" %}{% endif %}
+{% assign home = site.data.navigation.languages[lang].home | default: "/" %}
+{% assign switch = site.data.navigation.languages[other] %}
+{% capture logo_path %}{{ site.logo }}{% endcapture %}
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
+        {% unless logo_path == empty %}
+          <a class="site-logo" href="{{ home | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></a>
+        {% endunless %}
+        <a class="site-title" href="{{ home | relative_url }}">
+          {{ site.masthead_title | default: site.title | escape_once | strip }}
+          {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle | escape_once | strip }}</span>{% endif %}
+        </a>
+        <ul class="visible-links">
+          {%- for link in nav -%}
+            <li class="masthead__menu-item">
+              <a
+                href="{{ link.url | relative_url }}"
+                {% if link.description %} title="{{ link.description }}"{% endif %}
+                {% if link.target %} target="{{ link.target }}"{% endif %}
+              >{{ link.title }}</a>
+            </li>
+          {%- endfor -%}
+          <li class="masthead__menu-item masthead__lang">
+            <a class="lang-switch" href="{{ switch.home | relative_url }}" hreflang="{{ other }}" lang="{{ other }}" title="{{ switch.title }}">{{ switch.label }}</a>
+          </li>
+        </ul>
+        {% if site.search == true %}
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">{{ site.data.ui-text[locale].search_label | default: "Toggle search" }}</span>
+          <i class="fas fa-search"></i>
+        </button>
+        {% endif %}
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">{{ site.data.ui-text[locale].menu_label | default: "Toggle menu" }}</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>

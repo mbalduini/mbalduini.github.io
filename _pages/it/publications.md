@@ -1,10 +1,10 @@
 ---
 ref: publications
-permalink: /publications/
-title: "Publications"
-description: "Publications and awards of Marco Balduini: journal and conference papers, tutorials and book chapters, with DOI and BibTeX links."
+permalink: /it/publications/
+title: "Pubblicazioni"
+description: "Pubblicazioni e premi di Marco Balduini: articoli su rivista e a conferenza, tutorial e capitoli di libro, con link a DOI e BibTeX."
 toc: true
-toc_label: "Publications"
+toc_label: "Pubblicazioni"
 toc_sticky: true
 ---
 
@@ -18,35 +18,35 @@ toc_sticky: true
 {%- endfor %}
 </p>
 
-## Awards
+## Premi
 {: #awards}
 
 - **IEEE MultiMedia Best Paper Award 2016** — "[CitySensing: Fusing City Data for Visual Storytelling](#ieee-mm-2015)"
-- **Semantic Web Challenge 2011** — First place (BOTTARI)
-- **Semantic Web Challenge 2012** — Finalist (crowd tracking during the London 2012 Opening Ceremony)
-- **AI Mashup Challenge 2013 (ESWC)** — Third place (Social listening of Fuorisalone 2013)
+- **Semantic Web Challenge 2011** — primo posto (BOTTARI)
+- **Semantic Web Challenge 2012** — finalista (tracciamento della folla durante la cerimonia di apertura di Londra 2012)
+- **AI Mashup Challenge 2013 (ESWC)** — terzo posto (social listening del Fuorisalone 2013)
 
-## PhD Thesis
+## Tesi di dottorato
 {: #phd-thesis}
 
 {% include publications.html type="thesis" %}
 
-## Journal Papers
+## Articoli su rivista
 {: #journal-papers}
 
 {% include publications.html type="journal" by_year=true %}
 
-## Conference Papers
+## Articoli a conferenza
 {: #conference-papers}
 
 {% include publications.html type="conference" by_year=true %}
 
-## Tutorials
+## Tutorial
 {: #tutorials}
 
 {% include publications.html type="tutorial" %}
 
-## Book Chapters
+## Capitoli di libro
 {: #book-chapters}
 
 {% include publications.html type="chapter" %}

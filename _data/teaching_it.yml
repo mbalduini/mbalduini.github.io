@@ -1,0 +1,17 @@
+# Pagina Formazione (italiano), resa da _pages/it/teaching.html con _includes/cards.html.
+
+- title: "Percorsi aziendali su dati e AI"
+  text: >-
+    Curricula in più moduli per grandi aziende, dalle basi dei dati (analisi esplorativa, qualità dei
+    dati, visualizzazione) all'AI applicata, in presenza e online.
+- title: "AI Project Manager"
+  text: >-
+    Corso professionale post-laurea sulla gestione dei progetti di AI (giunto alla terza edizione).
+- title: "Master"
+  text: >-
+    Interventi su dati e AI in master aziendali.
+- title: "Didattica universitaria e tutorial"
+  text: >-
+    Materiali didattici per corsi universitari; tutorial sul web stream processing a
+    [Reasoning Web 2018](/it/publications/#rweb-2018) e [The Web Conference 2022](/it/publications/#www-2022).
+    Lezioni apprese pubblicate a [ICWE 2020](/it/publications/#icwe-2020).

@@ -1,0 +1,17 @@
+---
+ref: projects
+permalink: /it/projects/
+title: "Progetti"
+description: "Progetti di Marco Balduini: ricerca finanziata, AI generativa per le aziende, Knowledge Graph e piattaforme dati, edge e industrial AI."
+classes: wide
+---
+<nav class="section-nav" aria-label="Aree dei progetti">
+  {%- for section in site.data.projects_it %}
+  <a href="#{{ section.id }}">{{ section.title }}</a>
+  {%- endfor %}
+</nav>
+
+{% for section in site.data.projects_it %}
+<h2 id="{{ section.id }}">{{ section.title }}</h2>
+{% include cards.html items=section.items %}
+{% endfor %}
