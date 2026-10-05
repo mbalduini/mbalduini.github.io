@@ -1,25 +1,18 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# This file is *NOT* reloaded automatically by 'jekyll serve': restart the server after editing it.
+
 title: Marco Balduini
+name: Marco Balduini
 email: marco.balduini@quantiaconsulting.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Enthusiatic researcher with a stream based mind.....
-  Proud Founder and CEO of Quantia Consulting.
-twitter_username: balducci85
+description: >- # this means to ignore newlines
+  Marco Balduini — PhD, CEO of Quantia Consulting and co-founder & COO of Motus ml.
+  Knowledge Graphs, enterprise generative AI, edge ML and data & AI training.
+url: "https://marcobalduini.com"
+baseurl: ""
+locale: en
 github_username: mbalduini
+og_image: /assets/images/og-marco-balduini.jpg
+og_image_alt: Marco Balduini
 minimal_mistakes_skin: default
 search: true
 
@@ -30,17 +23,11 @@ remote_theme: mmistakes/minimal-mistakes@4.28.1
 include:
   - _pages
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
 
 # Plugins (previously gems:)
 plugins:
@@ -50,27 +37,38 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-redirect-from
 
 author:
   name   : "Marco Balduini"
   avatar : "/assets/images/marco-balduini.jpg"
-  bio    : "PhD from PoliMI - Founder and CEO of Quantia Consulting"
+  bio    : "Data & AI practitioner. PhD, Politecnico di Milano. CEO of Quantia Consulting, co-founder & COO of Motus ml."
   links:
-    - label: "Quantia Consulting"
-      icon: "fas fa-fw fa-link"
-      url: "http://www.quantiaconsulting.com"
-    - label: "Quantia Consulting"
-      icon: "fas fa-fw fa-envelope-square"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
       url: "mailto:marco.balduini@quantiaconsulting.com"
-    - label: "Polimi"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:marco.balduini@polimi.it"
-    - label: "Linkedin"
-      icon: "fab fa-linkedin"
+    - label: "Quantia Consulting"
+      icon: "fas fa-fw fa-building"
+      url: "https://www.quantiaconsulting.com"
+    - label: "Motus ml"
+      icon: "fas fa-fw fa-microchip"
+      url: "https://motusml.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/mbalduini"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mbalduini"  
+      url: "https://github.com/mbalduini"
+    - label: "DBLP"
+      icon: "fas fa-fw fa-book"
+      url: "https://dblp.org/pid/122/5489.html"
+    # TODO: uncomment when the URLs are available
+    # - label: "ORCID"
+    #   icon: "fab fa-fw fa-orcid"
+    #   url: "TODO_ORCID_URL"
+    # - label: "Google Scholar"
+    #   icon: "fab fa-fw fa-google-scholar"
+    #   url: "TODO_SCHOLAR_URL"
 
 defaults:
   # _pages
