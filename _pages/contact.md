@@ -7,7 +7,8 @@ description: "How to contact Marco Balduini: email, LinkedIn, GitHub, DBLP, ORCI
 For collaborations, projects or training, the best way to reach me is email or LinkedIn.
 
 <ul class="contact-links">
-{%- for link in site.author.links %}
+{%- assign author = site.data.authors[page.author] | default: site.data.authors.en %}
+{%- for link in author.links %}
   {%- assign is_mail = false %}
   {%- if link.url contains "mailto:" %}{% assign is_mail = true %}{% endif %}
   {%- assign shown = link.display | default: link.url | remove: "mailto:" | remove: "https://" | remove: "http://" | remove: "www." | remove: ".html" %}

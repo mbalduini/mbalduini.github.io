@@ -39,41 +39,19 @@ plugins:
   - jekyll-include-cache
   - jekyll-redirect-from
 
+# The sidebar content lives in _data/authors.yml (one entry per language).
 author:
   name   : "Marco Balduini"
   avatar : "/assets/images/marco-balduini.jpg"
-  bio    : "Data & AI practitioner. PhD, Politecnico di Milano. CEO of Quantia Consulting, co-founder & COO of Motus ml."
-  links:
-    - label: "Email (Quantia)"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:marco.balduini@quantiaconsulting.com"
-    - label: "Email (Motus ml)"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:marco.balduini@motusml.com"
-    - label: "Quantia Consulting"
-      icon: "fas fa-fw fa-building"
-      url: "https://www.quantiaconsulting.com"
-    - label: "Motus ml"
-      icon: "fas fa-fw fa-microchip"
-      url: "https://motusml.com"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/mbalduini"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/mbalduini"
-    - label: "DBLP"
-      icon: "fas fa-fw fa-book"
-      url: "https://dblp.org/pid/122/5489.html"
-    - label: "ORCID"
-      icon: "fab fa-fw fa-orcid"
-      url: "https://orcid.org/0000-0002-2397-2166"
-    - label: "Google Scholar"
-      icon: "fab fa-fw fa-google-scholar"
-      url: "https://scholar.google.com/citations?user=dHyc5d0AAAAJ"
-      display: "Google Scholar profile"
 
 defaults:
+  # every page: English unless overridden
+  - scope:
+      path: ""
+    values:
+      lang: en
+      locale: en
+      author: en
   # _pages
   - scope:
       path: "_pages"
@@ -81,3 +59,11 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # Italian pages
+  - scope:
+      path: "_pages/it"
+      type: pages
+    values:
+      lang: it
+      locale: it
+      author: it

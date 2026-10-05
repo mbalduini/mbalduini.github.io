@@ -9,7 +9,8 @@ toc_sticky: true
 
 {% assign profiles = "DBLP,ORCID,Google Scholar" | split: "," -%}
 <p class="pub-profiles">
-{%- for link in site.author.links -%}
+{%- assign author = site.data.authors[page.author] | default: site.data.authors.en -%}
+{%- for link in author.links -%}
   {%- if profiles contains link.label %}
   <a href="{{ link.url }}" class="btn btn--inverse btn--small"><i class="{{ link.icon }}" aria-hidden="true"></i> {{ link.label }}</a>
   {%- endif -%}

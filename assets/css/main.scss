@@ -152,6 +152,23 @@ $doc-font-size-x-large: 18px;
   font-weight: bold;
 }
 
+/* Company marks used as link icons (sidebar, Contact) */
+.brand-logo {
+  display: inline-block;
+  width: 1.25em;
+  height: 1em;
+  vertical-align: -0.125em;
+  background: center / contain no-repeat;
+}
+
+.brand-logo--quantia {
+  background-image: url("../images/logos/quantia.png");
+}
+
+.brand-logo--motus {
+  background-image: url("../images/logos/motus-ml.svg");
+}
+
 /* Tighter vertical rhythm for headings in page content */
 .page__content {
   h2 {

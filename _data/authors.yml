@@ -1,0 +1,44 @@
+# Author sidebar, one entry per language (pages pick it with `author:`).
+# Both languages share the same links via the YAML anchor below.
+
+en:
+  name: "Marco Balduini"
+  avatar: "/assets/images/marco-balduini.jpg"
+  home: "/"
+  bio: "Data & AI practitioner. PhD, Politecnico di Milano. CEO of Quantia Consulting, co-founder & COO of Motus ml."
+  links: &links
+    - label: "Email (Quantia)"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:marco.balduini@quantiaconsulting.com"
+    - label: "Email (Motus ml)"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:marco.balduini@motusml.com"
+    - label: "Quantia Consulting"
+      icon: "brand-logo brand-logo--quantia"
+      url: "https://www.quantiaconsulting.com"
+    - label: "Motus ml"
+      icon: "brand-logo brand-logo--motus"
+      url: "https://motusml.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/mbalduini"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mbalduini"
+    - label: "DBLP"
+      icon: "fas fa-fw fa-book"
+      url: "https://dblp.org/pid/122/5489.html"
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0000-0002-2397-2166"
+    - label: "Google Scholar"
+      icon: "fab fa-fw fa-google-scholar"
+      url: "https://scholar.google.com/citations?user=dHyc5d0AAAAJ"
+      display: "Google Scholar profile"
+
+it:
+  name: "Marco Balduini"
+  avatar: "/assets/images/marco-balduini.jpg"
+  home: "/it/"
+  bio: "Data & AI practitioner. Dottorato di ricerca al Politecnico di Milano. CEO di Quantia Consulting, co-fondatore e COO di Motus ml."
+  links: *links
