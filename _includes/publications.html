@@ -2,6 +2,7 @@
   Renders the publications of one type from _data/publications.yml, newest first.
   Usage: {% include publications.html type="conference" by_year=true %}
 {% endcomment %}
+{%- capture me %}<span class="pub__me">{{ site.author.name }}</span>{% endcapture -%}
 {%- assign pubs = site.data.publications | where: "type", include.type -%}
 {%- assign groups = pubs | group_by: "year" | sort: "name" | reverse -%}
 {%- for group in groups -%}
@@ -11,7 +12,7 @@
 <ul class="pub-list">
   {%- for p in group.items %}
   <li class="pub"{% if p.id %} id="{{ p.id }}"{% endif %}>
-    <span class="pub__authors">{{ p.authors | join: ", " }}:</span>
+    <span class="pub__authors">{{ p.authors | join: ", " | replace: site.author.name, me }}:</span>
     <strong class="pub__title">{{ p.title }}.</strong>
     <span class="pub__venue">{{ p.venue }}</span>
     <span class="pub__links">
