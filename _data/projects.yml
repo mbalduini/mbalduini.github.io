@@ -68,24 +68,3 @@
     - title: "Defect analytics and visual inspection"
       text: >-
         Defect analytics and PCB visual inspection for aerospace quality processes.
-
-- id: past-projects
-  title: "Past projects"
-  items:
-    - title: "BOTTARI"
-      meta: "2010–2011, FP7 LarKC"
-      text: >-
-        Augmented-reality mobile app for tourists in Seoul powered by semantic, continuous and
-        predictive social media analysis, co-designed by Politecnico di Milano, Siemens and Saltlux.
-        Winner of the Semantic Web Challenge 2011.
-    - title: "CitySensing"
-      meta: "2014–2015"
-      text: >-
-        Visual dashboards fusing social media, mobile and IoT data, co-developed with the DensityDesign Lab
-        of Politecnico di Milano and Telecom Italia and exhibited at Milan Design Week 2014 and EXPO Milano
-        2015. IEEE MultiMedia Best Paper Award 2016.
-    - title: "Fluxedo"
-      meta: "2015"
-      text: >-
-        Co-founded startup for continuous visual analytics; its first social media monitoring product
-        was built on the heterogeneous stream processing engine from my PhD.
