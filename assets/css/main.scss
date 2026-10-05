@@ -37,3 +37,34 @@ search: false
   color: $muted-text-color;
   font-size: $type-size-6;
 }
+
+/* About: vertical timeline */
+.timeline {
+  list-style: none;
+  margin-inline-start: 0;
+  padding-inline-start: 1.25em;
+  border-inline-start: 2px solid $border-color;
+
+  li {
+    position: relative;
+    margin-bottom: 1em;
+
+    &::before {
+      content: "";
+      position: absolute;
+      inset-inline-start: calc(-1.25em - 6px);
+      top: 0.45em;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: $primary-color;
+    }
+  }
+}
+
+.timeline__year {
+  display: block;
+  font-weight: bold;
+  font-size: $type-size-6;
+  color: $primary-color;
+}
