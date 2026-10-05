@@ -262,11 +262,45 @@ $doc-font-size-x-large: 18px;
   }
 }
 
-/* No footer: hide the theme's empty footer container */
+/* Footer */
 .page__footer {
-  display: none;
+  margin-top: 2em;
+
+  footer {
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+  }
 }
 
-.initial-content {
-  padding-bottom: 3em;
+.site-footer__profiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin: 0 0 0.5em;
+  padding: 0;
+  list-style: none;
+  font-size: 1.1em;
+
+  a {
+    color: $muted-text-color;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
+
+.site-footer__legal {
+  margin: 0;
+  font-size: $type-size-6;
+  color: $muted-text-color;
+}
+
+.site-footer__links {
+  white-space: nowrap;
+
+  a {
+    margin-inline-start: 0.75em;
+    color: $muted-text-color;
+  }
 }
