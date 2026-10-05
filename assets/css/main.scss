@@ -98,3 +98,18 @@ search: false
   font-size: $type-size-5;
   color: $muted-text-color;
 }
+
+/* Contact */
+.contact-links {
+  list-style: none;
+  margin-inline-start: 0;
+  padding-inline-start: 0;
+
+  li {
+    margin-bottom: 0.5em;
+  }
+
+  i {
+    width: 1.5em;
+  }
+}
