@@ -1,6 +1,7 @@
 ---
 permalink: /contact/
 title: "Contact"
+description: "How to contact Marco Balduini: email, LinkedIn, GitHub, DBLP, ORCID and Google Scholar."
 ---
 
 For collaborations, projects or training, the best way to reach me is email or LinkedIn.

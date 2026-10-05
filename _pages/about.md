@@ -1,6 +1,7 @@
 ---
 permalink: /about/
 title: "About"
+description: "About Marco Balduini: PhD in Computer Science from Politecnico di Milano, CEO of Quantia Consulting and co-founder & COO of Motus ml."
 ---
 
 Marco Balduini is CEO of Quantia Consulting and co-founder and COO of Motus ml. He holds a PhD in Computer Science from Politecnico di Milano and works where research meets industry: Knowledge Graphs and semantic data integration, generative AI systems organizations can trust and run, and machine learning that learns continuously at the edge.
