@@ -1,0 +1,463 @@
+# Publications, rendered by _includes/publications.html.
+# type: thesis | journal | conference | chapter | tutorial
+# Links: doi (bare DOI), url (PDF or landing page when there is no DOI), arxiv, bibtex, rdf (DBLP).
+# Entries are sorted by year (descending) at render time; order within a year is kept.
+# TODO: add DBLP bibtex/rdf links for iswc-2024, www-2022 and icwe-2020.
+
+- id: "iswc-2024"
+  type: "conference"
+  year: 2024
+  authors:
+    - "Antonio De Santis"
+    - "Marco Balduini"
+    - "Federico De Santis"
+    - "Andrea Proia"
+    - "Arsenio Leo"
+    - "Marco Brambilla"
+    - "Emanuele Della Valle"
+  title: "Integrating Large Language Models and Knowledge Graphs for Extraction and Validation of Textual Test Data"
+  venue: "ISWC (3) 2024: 304-323"
+  doi: "10.1007/978-3-031-77847-6_17"
+  arxiv: "2408.01700"
+
+- id: "www-2022"
+  type: "tutorial"
+  year: 2022
+  authors:
+    - "Riccardo Tommasini"
+    - "Senjuti Basu Roy"
+    - "…"
+    - "Marco Balduini"
+    - "Matteo Belcao"
+    - "Emanuele Della Valle"
+    - "et al."
+  title: "Accepted Tutorials at The Web Conference 2022"
+  venue: "WWW (Companion Volume) 2022: 391-399"
+  doi: "10.1145/3487553.3547182"
+
+- id: "icwe-2020"
+  type: "conference"
+  year: 2020
+  authors:
+    - "Riccardo Tommasini"
+    - "Emanuele Della Valle"
+    - "Marco Balduini"
+    - "Sherif Sakr"
+  title: "On Teaching Web Stream Processing - Lessons Learned"
+  venue: "ICWE 2020: 485-493"
+  doi: "10.1007/978-3-030-50578-3_33"
+
+- type: "thesis"
+  year: 2019
+  authors:
+    - "Marco Balduini"
+  title: "On the continuous and reactive analysis of a variety of spatio-temporal data"
+  venue: "PhD Thesis, Politecnico di Milano (2019)"
+  url: "http://hdl.handle.net/10589/144844"
+
+- type: "journal"
+  year: 2019
+  authors:
+    - "Marco Balduini"
+    - "Marco Brambilla"
+    - "Emanuele Della Valle"
+    - "Christian Marazzi"
+    - "Tahereh Arabghalizi"
+    - "Behnam Rahdari"
+    - "Michele Vescovi"
+  title: "Models and Practices in Urban Data Science at Scale"
+  venue: "Big Data Research 17: 66-84 (2019)"
+  doi: "10.1016/j.bdr.2018.04.003"
+  bibtex: "https://dblp.org/rec/journals/bdr/BalduiniBVMARV19.bib"
+  rdf: "https://dblp.org/rec/journals/bdr/BalduiniBVMARV19.nt"
+
+- id: "ieee-mm-2015"
+  type: "journal"
+  year: 2015
+  authors:
+    - "Marco Balduini"
+    - "Emanuele Della Valle"
+    - "Matteo Azzi"
+    - "Roberto Larcher"
+    - "Fabrizio Antonelli"
+    - "Paolo Ciuccarelli"
+  title: "CitySensing: Fusing City Data for Visual Storytelling"
+  venue: "IEEE MultiMedia 22(3): 44-53 (2015)"
+  doi: "10.1109/MMUL.2015.54"
+  bibtex: "https://dblp.org/rec/journals/ieeemm/BalduiniVALAC15.bib"
+  rdf: "https://dblp.org/rec/journals/ieeemm/BalduiniVALAC15.nt"
+
+- type: "journal"
+  year: 2014
+  authors:
+    - "Marco Balduini"
+    - "Alessandro Bozzon"
+    - "Emanuele Della Valle"
+    - "Yi Huang"
+    - "Geert-Jan Houben"
+  title: "Recommending Venues Using Continuous Predictive Social Media Analytics"
+  venue: "IEEE Internet Computing 18(5): 28-35 (2014)"
+  doi: "10.1109/MIC.2014.84"
+  bibtex: "https://dblp.org/rec/journals/internet/BalduiniBVHH14.bib"
+  rdf: "https://dblp.org/rec/journals/internet/BalduiniBVHH14.nt"
+
+- type: "journal"
+  year: 2014
+  authors:
+    - "Marco Balduini"
+    - "Irene Celino"
+    - "Daniele Dell'Aglio"
+    - "Emanuele Della Valle"
+    - "Yi Huang"
+    - "Tony Lee"
+    - "Seon-Ho Kim"
+    - "Volker Tresp"
+  title: "Reality mining on micropost streams - Deductive and inductive reasoning for personalized and location-based recommendations"
+  venue: "Semantic Web 5(5): 341-356 (2014)"
+  doi: "10.3233/SW-130107"
+  bibtex: "https://dblp.org/rec/journals/semweb/BalduiniCDVHLKT14.bib"
+  rdf: "https://dblp.org/rec/journals/semweb/BalduiniCDVHLKT14.nt"
+
+- type: "journal"
+  year: 2012
+  authors:
+    - "Marco Balduini"
+    - "Irene Celino"
+    - "Daniele Dell'Aglio"
+    - "Emanuele Della Valle"
+    - "Yi Huang"
+    - "Tony Lee"
+    - "Seon-Ho Kim"
+    - "Volker Tresp"
+  title: "BOTTARI: An augmented reality mobile application to deliver personalized and location-based recommendations by continuous analysis of social media streams"
+  venue: "Journal of Web Semantics 16: 33-41 (2012)"
+  doi: "10.1016/j.websem.2012.06.004"
+  bibtex: "https://dblp.org/rec/journals/ws/BalduiniCDVHLKT12.bib"
+  rdf: "https://dblp.org/rec/journals/ws/BalduiniCDVHLKT12.nt"
+
+- type: "conference"
+  year: 2019
+  authors:
+    - "Riccardo Tommasini"
+    - "Sherif Sakr"
+    - "Marco Balduini"
+    - "Emanuele Della Valle"
+  title: "An Outlook to Declarative Languages for Big Streaming Data"
+  venue: "DEBS 2019: 199-202"
+  doi: "10.1145/3328905.3332462"
+  bibtex: "https://dblp.org/rec/conf/debs/0001SBV19.bib"
+  rdf: "https://dblp.org/rec/conf/debs/0001SBV19.nt"
+
+- type: "conference"
+  year: 2018
+  authors:
+    - "Marco Balduini"
+    - "Sivam Pasupathipillai"
+    - "Emanuele Della Valle"
+  title: "Cost-Aware Streaming Data Analysis: Distributed vs Single-Thread"
+  venue: "DEBS 2018: 160-170"
+  doi: "10.1145/3210284.3210294"
+  bibtex: "https://dblp.org/rec/conf/debs/BalduiniPV18.bib"
+  rdf: "https://dblp.org/rec/conf/debs/BalduiniPV18.nt"
+
+- id: "rweb-2018"
+  type: "tutorial"
+  year: 2018
+  authors:
+    - "Emanuele Della Valle"
+    - "Riccardo Tommasini"
+    - "Marco Balduini"
+  title: "Engineering of Web Stream Processing Applications"
+  venue: "Reasoning Web 2018: 223-226"
+  doi: "10.1007/978-3-030-00338-8_8"
+  bibtex: "https://dblp.org/rec/conf/rweb/Valle0B18.bib"
+  rdf: "https://dblp.org/rec/conf/rweb/Valle0B18.nt"
+
+- type: "conference"
+  year: 2018
+  authors:
+    - "Riccardo Tommasini"
+    - "Yehia Abo Sedira"
+    - "Daniele Dell'Aglio"
+    - "Marco Balduini"
+    - "Muhammad Intizar Ali"
+    - "Danh Le Phuoc"
+    - "Emanuele Della Valle"
+    - "Jean-Paul Calbimonte"
+  title: "VoCaLS: Describing Streams on the Web"
+  venue: "International Semantic Web Conference (P&D/Industry/BlueSky) 2018"
+  url: "https://ceur-ws.org/Vol-2180/paper-72.pdf"
+  bibtex: "https://dblp.org/rec/conf/semweb/0001SDBAPVC18.bib"
+  rdf: "https://dblp.org/rec/conf/semweb/0001SDBAPVC18.nt"
+
+- type: "conference"
+  year: 2018
+  authors:
+    - "Marco Balduini"
+  title: "On the Continuous and Reactive Analysis of a Variety of Spatio-Temporal Data"
+  venue: "DC@ISWC 2018: 10-17"
+  url: "https://ceur-ws.org/Vol-2181/paper-02.pdf"
+  bibtex: "https://dblp.org/rec/conf/semweb/Balduini18.bib"
+  rdf: "https://dblp.org/rec/conf/semweb/Balduini18.nt"
+
+- type: "conference"
+  year: 2018
+  authors:
+    - "Riccardo Tommasini"
+    - "Yehia Abo Sedira"
+    - "Daniele Dell'Aglio"
+    - "Marco Balduini"
+    - "Muhammad Intizar Ali"
+    - "Danh Le Phuoc"
+    - "Emanuele Della Valle"
+    - "Jean-Paul Calbimonte"
+  title: "VoCaLS: Vocabulary and Catalog of Linked Streams"
+  venue: "International Semantic Web Conference (2) 2018: 256-272"
+  doi: "10.1007/978-3-030-00668-6_16"
+  bibtex: "https://dblp.org/rec/conf/semweb/TommasiniSDBAPV18.bib"
+  rdf: "https://dblp.org/rec/conf/semweb/TommasiniSDBAPV18.nt"
+
+- type: "conference"
+  year: 2017
+  authors:
+    - "Marco Balduini"
+    - "Emanuele Della Valle"
+    - "Riccardo Tommasini"
+  title: "SLD Revolution: A Cheaper, Faster yet more Accurate Streaming Linked Data Framework"
+  venue: "RSP+QuWeDa@ESWC 2017: 1-15"
+  url: "https://ceur-ws.org/Vol-1870/paper-01.pdf"
+  bibtex: "https://dblp.org/rec/conf/esws/BalduiniV017.bib"
+  rdf: "https://dblp.org/rec/conf/esws/BalduiniV017.nt"
+
+- type: "conference"
+  year: 2017
+  authors:
+    - "Riccardo Tommasini"
+    - "Marco Balduini"
+    - "Emanuele Della Valle"
+  title: "Towards a Benchmark for Expressive Stream Reasoning"
+  venue: "RSP+QuWeDa@ESWC 2017: 26-36"
+  url: "https://ceur-ws.org/Vol-1870/paper-03.pdf"
+  bibtex: "https://dblp.org/rec/conf/esws/0001BV17.bib"
+  rdf: "https://dblp.org/rec/conf/esws/0001BV17.nt"
+
+- type: "conference"
+  year: 2017
+  authors:
+    - "Marco Balduini"
+    - "Emanuele Della Valle"
+    - "Riccardo Tommasini"
+  title: "SLD Revolution: A Cheaper, Faster yet More Accurate Streaming Linked Data Framework"
+  venue: "ESWC (Satellite Events) 2017: 263-279"
+  doi: "10.1007/978-3-319-70407-4_37"
+  bibtex: "https://dblp.org/rec/conf/esws/BalduiniV017a.bib"
+  rdf: "https://dblp.org/rec/conf/esws/BalduiniV017a.nt"
+
+- type: "conference"
+  year: 2016
+  authors:
+    - "Riccardo Tommasini"
+    - "Emanuele Della Valle"
+    - "Marco Balduini"
+    - "Daniele Dell'Aglio"
+  title: "Heaven: A Framework for Systematic Comparative Research Approach for RSP Engines"
+  venue: "ESWC 2016: 250-265"
+  doi: "10.1007/978-3-319-34129-3_16"
+  bibtex: "https://dblp.org/rec/conf/esws/TommasiniVBD16.bib"
+  rdf: "https://dblp.org/rec/conf/esws/TommasiniVBD16.nt"
+
+- type: "conference"
+  year: 2016
+  authors:
+    - "Andrea Mauri"
+    - "Jean-Paul Calbimonte"
+    - "Daniele Dell'Aglio"
+    - "Marco Balduini"
+    - "Marco Brambilla"
+    - "Emanuele Della Valle"
+    - "Karl Aberer"
+  title: "TripleWave: Spreading RDF Streams on the Web"
+  venue: "International Semantic Web Conference (2) 2016: 140-149"
+  doi: "10.1007/978-3-319-46547-0_15"
+  bibtex: "https://dblp.org/rec/conf/semweb/0001CDB0VA16.bib"
+  rdf: "https://dblp.org/rec/conf/semweb/0001CDB0VA16.nt"
+
+- type: "conference"
+  year: 2015
+  authors:
+    - "Emanuele Della Valle"
+    - "Marco Balduini"
+  title: "Listening to and Visualising the Pulse of Our Cities Using Social Media and Call Data Records"
+  venue: "BIS (Workshops) 2015: 3-14"
+  doi: "10.1007/978-3-319-26762-3_1"
+  bibtex: "https://dblp.org/rec/conf/bis/ValleB15.bib"
+  rdf: "https://dblp.org/rec/conf/bis/ValleB15.nt"
+
+- type: "conference"
+  year: 2015
+  authors:
+    - "Andrea Mauri"
+    - "Jean-Paul Calbimonte"
+    - "Daniele Dell'Aglio"
+    - "Marco Balduini"
+    - "Emanuele Della Valle"
+    - "Karl Aberer"
+  title: "Where Are the RDF Streams?: On Deploying RDF Streams on the Web of Data with TripleWave"
+  venue: "International Semantic Web Conference (Posters & Demos) 2015"
+  url: "https://ceur-ws.org/Vol-1486/paper_95.pdf"
+  bibtex: "https://dblp.org/rec/conf/semweb/0001CDBVA15.bib"
+  rdf: "https://dblp.org/rec/conf/semweb/0001CDBVA15.nt"
+
+- type: "conference"
+  year: 2015
+  authors:
+    - "Riccardo Tommasini"
+    - "Emanuele Della Valle"
+    - "Marco Balduini"
+    - "Daniele Dell'Aglio"
+  title: "Heaven Test Stand: Towards Comparative Research on RSP Engines"
+  venue: "SSN-TC/OrdRing@ISWC 2015: 87-92"
+  url: "https://ceur-ws.org/Vol-1488/paper-09.pdf"
+  bibtex: "https://dblp.org/rec/conf/semweb/TommasiniVBD15.bib"
+  rdf: "https://dblp.org/rec/conf/semweb/TommasiniVBD15.nt"
+
+- type: "conference"
+  year: 2015
+  authors:
+    - "Marco Balduini"
+    - "Emanuele Della Valle"
+  title: "FraPPE: A Vocabulary to Represent Heterogeneous Spatio-temporal Data to Support Visual Analytics"
+  venue: "International Semantic Web Conference (2) 2015: 321-328"
+  doi: "10.1007/978-3-319-25010-6_21"
+  bibtex: "https://dblp.org/rec/conf/semweb/BalduiniV15.bib"
+  rdf: "https://dblp.org/rec/conf/semweb/BalduiniV15.nt"
+
+- type: "conference"
+  year: 2014
+  authors:
+    - "Fabrizio Antonelli"
+    - "Matteo Azzi"
+    - "Marco Balduini"
+    - "Paolo Ciuccarelli"
+    - "Emanuele Della Valle"
+    - "Roberto Larcher"
+  title: "City sensing: visualising mobile and social data about a city scale event"
+  venue: "AVI 2014: 337-338"
+  doi: "10.1145/2598153.2600032"
+  bibtex: "https://dblp.org/rec/conf/avi/AntonelliABCVL14.bib"
+  rdf: "https://dblp.org/rec/conf/avi/AntonelliABCVL14.nt"
+
+- type: "conference"
+  year: 2014
+  authors:
+    - "Marco Balduini"
+    - "Stefano Bocconi"
+    - "Alessandro Bozzon"
+    - "Emanuele Della Valle"
+    - "Yi Huang"
+    - "Jasper Oosterman"
+    - "Themis Palpanas"
+    - "Mikalai Tsytsarau"
+  title: "A Case Study of Active, Continuous and Predictive Social Media Analytics for Smart City"
+  venue: "S4SC@ISWC 2014: 31-46"
+  url: "https://ceur-ws.org/Vol-1280/paper3.pdf"
+  bibtex: "https://dblp.org/rec/conf/semweb/BalduiniBBVHOPT14.bib"
+  rdf: "https://dblp.org/rec/conf/semweb/BalduiniBBVHOPT14.nt"
+
+- type: "conference"
+  year: 2013
+  authors:
+    - "Marco Balduini"
+    - "Emanuele Della Valle"
+    - "Daniele Dell'Aglio"
+    - "Mikalai Tsytsarau"
+    - "Themis Palpanas"
+    - "Cristian Confalonieri"
+  title: "Twindex Fuorisalone: Social Listening of Milano during Fuorisalone 2013"
+  venue: "ESWC (Satellite Events) 2013: 327-336"
+  doi: "10.1007/978-3-642-41242-4_59"
+  bibtex: "https://dblp.org/rec/conf/esws/BalduiniVDTPC13.bib"
+  rdf: "https://dblp.org/rec/conf/esws/BalduiniVDTPC13.nt"
+
+- type: "conference"
+  year: 2013
+  authors:
+    - "Tony Kyung-il Lee"
+    - "Seon-Ho Kim"
+    - "Marco Balduini"
+    - "Daniele Dell'Aglio"
+    - "Irene Celino"
+    - "Yi Huang"
+    - "Volker Tresp"
+    - "Emanuele Della Valle"
+  title: "Location-Based Mobile Recommendations by Hybrid Reasoning on Social Media Streams"
+  venue: "JIST 2013: 261-273"
+  doi: "10.1007/978-3-319-06826-8_20"
+  bibtex: "https://dblp.org/rec/conf/jist/LeeKBDCHTV13.bib"
+  rdf: "https://dblp.org/rec/conf/jist/LeeKBDCHTV13.nt"
+
+- type: "conference"
+  year: 2013
+  authors:
+    - "Marco Balduini"
+    - "Emanuele Della Valle"
+    - "Daniele Dell'Aglio"
+    - "Mikalai Tsytsarau"
+    - "Themis Palpanas"
+    - "Cristian Confalonieri"
+  title: "Social Listening of City Scale Events Using the Streaming Linked Data Framework"
+  venue: "International Semantic Web Conference (2) 2013: 1-16"
+  doi: "10.1007/978-3-642-41338-4_1"
+  bibtex: "https://dblp.org/rec/conf/semweb/BalduiniVDTPC13.bib"
+  rdf: "https://dblp.org/rec/conf/semweb/BalduiniVDTPC13.nt"
+
+- type: "conference"
+  year: 2013
+  authors:
+    - "Marco Miglierina"
+    - "Marco Balduini"
+    - "Narges Shahmandi Hoonejani"
+    - "Elisabetta Di Nitto"
+    - "Danilo Ardagna"
+  title: "Exploiting Stream Reasoning to Monitor Multi-Cloud Applications"
+  venue: "OrdRing@ISWC 2013: 33-36"
+  url: "https://ceur-ws.org/Vol-1059/ordring2013-paper4.pdf"
+  bibtex: "https://dblp.org/rec/conf/semweb/MiglierinaBHNA13.bib"
+  rdf: "https://dblp.org/rec/conf/semweb/MiglierinaBHNA13.nt"
+
+- type: "conference"
+  year: 2013
+  authors:
+    - "Marco Balduini"
+    - "Emanuele Della Valle"
+  title: "A Restful Interface for RDF Stream Processors"
+  venue: "International Semantic Web Conference (Posters & Demos) 2013: 209-212"
+  url: "https://ceur-ws.org/Vol-1035/iswc2013_poster_8.pdf"
+  bibtex: "https://dblp.org/rec/conf/semweb/BalduiniV13.bib"
+  rdf: "https://dblp.org/rec/conf/semweb/BalduiniV13.nt"
+
+- type: "conference"
+  year: 2013
+  authors:
+    - "Daniele Dell'Aglio"
+    - "Jean-Paul Calbimonte"
+    - "Marco Balduini"
+    - "Óscar Corcho"
+    - "Emanuele Della Valle"
+  title: "On Correctness in RDF Stream Processor Benchmarking"
+  venue: "International Semantic Web Conference (2) 2013: 326-342"
+  doi: "10.1007/978-3-642-41338-4_21"
+  bibtex: "https://dblp.org/rec/conf/semweb/DellAglioCBCV13.bib"
+  rdf: "https://dblp.org/rec/conf/semweb/DellAglioCBCV13.nt"
+
+- type: "chapter"
+  year: 2015
+  authors:
+    - "Daniele Dell'Aglio"
+    - "Marco Balduini"
+    - "Emanuele Della Valle"
+  title: "Applying Semantic Interoperability Principles to Data Stream Management"
+  venue: "Data Management in Pervasive Systems 2015: 135-166"
+  doi: "10.1007/978-3-319-20062-0_7"
+  bibtex: "https://dblp.org/rec/books/sp/15/DellAglioBV15.bib"
+  rdf: "https://dblp.org/rec/books/sp/15/DellAglioBV15.nt"
