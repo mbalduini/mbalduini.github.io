@@ -1,4 +1,35 @@
 {%- comment -%}
-  Overrides the theme's footer.html (Minimal Mistakes 4.28.1): the site has no footer.
-  The Atom feed is still generated and linked from <head>.
+  Overrides the theme's footer.html (Minimal Mistakes 4.28.1): profile icons, copyright
+  and links to the privacy and cookie policies in the page language.
 {%- endcomment -%}
+{%- assign locale = include.locale | default: site.locale -%}
+{%- assign lang = locale | slice: 0, 2 -%}
+{%- assign author = site.data.authors[lang] | default: site.data.authors.en -%}
+{%- assign profiles = "LinkedIn,GitHub,ORCID,Google Scholar,DBLP" | split: "," -%}
+{%- if lang == "it" -%}
+  {%- assign privacy_url = "/it/privacy/" -%}{%- assign privacy_label = "Privacy" -%}
+  {%- assign cookies_url = "/it/cookie/" -%}{%- assign cookies_label = "Cookie" -%}
+  {%- assign rights = "Tutti i diritti riservati." -%}
+{%- else -%}
+  {%- assign privacy_url = "/privacy/" -%}{%- assign privacy_label = "Privacy" -%}
+  {%- assign cookies_url = "/cookies/" -%}{%- assign cookies_label = "Cookies" -%}
+  {%- assign rights = "All rights reserved." -%}
+{%- endif -%}
+<div class="site-footer">
+  <ul class="site-footer__profiles">
+    {%- for p in profiles %}
+      {%- for link in author.links %}
+        {%- if link.label == p %}
+    <li><a href="{{ link.url }}" aria-label="{{ link.label }}" title="{{ link.label }}"><i class="{{ link.icon }}" aria-hidden="true"></i></a></li>
+        {%- endif %}
+      {%- endfor %}
+    {%- endfor %}
+  </ul>
+  <p class="site-footer__legal">
+    &copy; {{ site.time | date: '%Y' }} {{ author.name }}. {{ rights }}
+    <span class="site-footer__links">
+      <a href="{{ privacy_url | relative_url }}">{{ privacy_label }}</a>
+      <a href="{{ cookies_url | relative_url }}">{{ cookies_label }}</a>
+    </span>
+  </p>
+</div>

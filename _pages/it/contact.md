@@ -1,11 +1,11 @@
 ---
 ref: contact
-permalink: /contact/
-title: "Contact"
-description: "How to contact Marco Balduini: email, LinkedIn, GitHub, DBLP, ORCID and Google Scholar."
+permalink: /it/contact/
+title: "Contatti"
+description: "Come contattare Marco Balduini: email, LinkedIn, GitHub, DBLP, ORCID e Google Scholar."
 ---
 
-For collaborations, projects or training, the best way to reach me is email or LinkedIn.
+Per collaborazioni, progetti o formazione, il modo migliore per contattarmi è l'email o LinkedIn.
 
 <ul class="contact-links">
 {%- assign author = site.data.authors[page.author] | default: site.data.authors.en %}
@@ -21,4 +21,4 @@ For collaborations, projects or training, the best way to reach me is email or L
 {%- endfor %}
 </ul>
 
-[Download CV (PDF)](/assets/files/marco-balduini-cv.pdf){: .btn .btn--inverse}
+[Scarica il CV (PDF, in inglese)](/assets/files/marco-balduini-cv.pdf){: .btn .btn--inverse}

@@ -1,4 +1,5 @@
 ---
+ref: about
 permalink: /about/
 title: "About"
 description: "About Marco Balduini: PhD in Computer Science from Politecnico di Milano, CEO of Quantia Consulting and co-founder & COO of Motus ml."

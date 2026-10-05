@@ -1,3 +1,4 @@
+# Top menu, one list per language (picked by the page locale in _includes/masthead.html).
 main:
   - title: "About"
     url: /about/
@@ -9,3 +10,26 @@ main:
     url: /publications/
   - title: "Contact"
     url: /contact/
+
+main_it:
+  - title: "Chi sono"
+    url: /it/about/
+  - title: "Progetti"
+    url: /it/projects/
+  - title: "Formazione"
+    url: /it/teaching/
+  - title: "Pubblicazioni"
+    url: /it/publications/
+  - title: "Contatti"
+    url: /it/contact/
+
+# Languages: home page and the label used by the switcher to reach that language.
+languages:
+  en:
+    home: /
+    label: "EN"
+    title: "English version"
+  it:
+    home: /it/
+    label: "IT"
+    title: "Versione italiana"

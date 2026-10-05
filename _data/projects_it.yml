@@ -1,0 +1,70 @@
+# Pagina Progetti (italiano), resa da _pages/it/projects.html con _includes/cards.html.
+# Stessa struttura e stessi id di _data/projects.yml.
+
+- id: funded-research
+  title: "Ricerca finanziata"
+  items:
+    - title: "TRIAD"
+      meta: "Horizon Europe, 2026–"
+      text: >-
+        "Balancing Foundational and AI Competences for Inclusive, Well-being-Oriented Education".
+        Guido il WP7 (Data Enrichment, Integration and Exploratory Dashboard): consolidamento dei dati
+        dei piloti e arricchimento con dataset esterni, sviluppo di una dashboard web interattiva e
+        pubblicazione di API e metadati secondo i principi FAIR e Frictionless Data.
+      links:
+        - label: "Sito del progetto"
+          url: "https://www.triad-project.eu/"
+    - title: "AIS4UM — AI-Safety 4 Smart Urban Mobility"
+      meta: "Regione Lombardia, 2025–"
+      text: >-
+        Sono responsabile della gestione, integrazione e analisi dei dati e coordino il lavoro tecnico
+        tra i partner: un catalogo delle fonti dati per i casi d'uso, l'armonizzazione di dati geografici
+        come il grafo stradale di Milano e una strategia dati basata su fonti statiche e aperte.
+    - title: "Equal-Life"
+      meta: "Horizon 2020, 2020–2025"
+      text: >-
+        Progetto europeo su come l'esposoma nei primi anni di vita influenzi la salute mentale e lo
+        sviluppo dei bambini, coordinato da RIVM. Ho guidato il WP9 (Tools, Training and Implementation)
+        e lo sviluppo dell'Equal-Life Toolkit, che permette di riusare e replicare gli approcci del
+        progetto all'integrazione e all'esplorazione dei dati sull'esposoma.
+      links:
+        - label: "Sito del progetto"
+          url: "https://www.equal-life.eu/en"
+
+- id: enterprise-generative-ai
+  title: "AI generativa per le aziende"
+  items:
+    - title: "Piattaforma RAG self-hosted per l'aerospazio"
+      text: >-
+        Dal prototipo all'industrializzazione di una piattaforma di retrieval-augmented generation
+        accelerata su GPU per un'azienda aerospaziale, con modelli open su infrastruttura GPU privata.
+    - title: "Assistenti AI per la qualifica aerospaziale"
+      text: >-
+        Strumenti che aiutano gli ingegneri a trovare le evidenze di qualifica, analizzare i report di
+        test e lavorare con le specifiche tecniche.
+
+- id: knowledge-graphs
+  title: "Knowledge Graph e piattaforme dati"
+  items:
+    - title: "Assessment di una piattaforma dati per la produzione di semiconduttori"
+      text: >-
+        Valutazione di una piattaforma dati esistente e progettazione dell'architettura TO-BE per
+        un'azienda di semiconduttori.
+    - title: "LLM e Knowledge Graph per i dati di test"
+      text: >-
+        Estrazione e validazione di dati di test testuali combinando large language model e Knowledge
+        Graph.
+      links:
+        - label: "Paper ISWC 2024"
+          url: "/it/publications/#iswc-2024"
+
+- id: edge-industrial-ai
+  title: "Edge & Industrial AI"
+  items:
+    - title: "Manutenzione predittiva con streaming ML"
+      text: >-
+        Modelli di machine learning che imparano in modo incrementale su dispositivi edge e si adattano
+        automaticamente a dati non stazionari, per la manutenzione predittiva dei macchinari.
+    - title: "Analisi dei difetti e ispezione visiva"
+      text: >-
+        Analisi dei difetti e ispezione visiva di PCB per i processi di qualità nel settore aerospaziale.

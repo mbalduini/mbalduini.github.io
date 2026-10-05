@@ -21,4 +21,30 @@
   });
 </script>
 
+{%- comment -%} Translations of this page (pages share the same `ref`). {%- endcomment -%}
+{%- if page.ref %}
+{%- assign translations = site.pages | where: "ref", page.ref %}
+{%- for t in translations %}
+<link rel="alternate" hreflang="{{ t.lang }}" href="{{ t.url | absolute_url }}">
+{%- if t.lang == "en" %}
+<link rel="alternate" hreflang="x-default" href="{{ t.url | absolute_url }}">
+{%- endif %}
+{%- endfor %}
+{%- endif %}
+
+<script>
+  // Point the language switcher to the translation of the current page, when there is one.
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll("a.lang-switch").forEach(function (a) {
+      var alt = document.querySelector('link[rel="alternate"][hreflang="' + a.getAttribute("hreflang") + '"]');
+      if (alt) a.setAttribute("href", new URL(alt.href).pathname);
+    });
+  });
+</script>
+
+{%- if jekyll.environment == "production" %}
+<!-- Privacy-friendly, cookieless analytics: https://www.goatcounter.com/ -->
+<script data-goatcounter="https://mbalduini.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+{%- endif %}
+
 <!-- end custom head snippets -->
