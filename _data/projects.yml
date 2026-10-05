@@ -11,22 +11,22 @@
         I lead WP7 (Data Enrichment, Integration and Exploratory Dashboard): consolidating pilot data
         and enriching it with external datasets, building an interactive web dashboard, and publishing
         APIs and metadata following FAIR and Frictionless Data principles.
+      links:
+        - label: "Project website"
+          url: "https://www.triad-project.eu/"
     - title: "AIS4UM — AI-Safety 4 Smart Urban Mobility"
       meta: "Regione Lombardia, 2025–"
       text: >-
         I am responsible for data management, integration and analysis and coordinate technical work
-        across partners: a data catalogue of sources for the project use cases, harmonization of
-        geographic data such as the Milan road graph, and a data strategy built on static and open
-        sources to keep use cases independent from partners' real-time feeds.
+        across partners: a catalogue of data sources for the use cases, harmonized geographic data such
+        as the Milan road graph, and a data strategy based on static and open sources.
     - title: "Equal-Life"
       meta: "Horizon 2020, 2020–2025"
       text: >-
-        European project on the early-life exposome — how physical, social and internal exposures shape
-        children's mental health and development — coordinated by RIVM. I was technical and operational
-        leader of WP9 (Tools, Training and Implementation): defining requirements from the outputs and data
-        formats of the other work packages, and developing the Equal-Life Toolkit, a software and
-        documentation toolkit that enables the reuse and replication of the project's exposome data
-        integration and exploration approaches.
+        European project on how the early-life exposome shapes children's mental health and development,
+        coordinated by RIVM. I led WP9 (Tools, Training and Implementation) and the development of the
+        Equal-Life Toolkit, which lets others reuse and replicate the project's exposome data integration
+        and exploration approaches.
       links:
         - label: "Project website"
           url: "https://www.equal-life.eu/en"
@@ -81,9 +81,9 @@
     - title: "CitySensing"
       meta: "2014–2015"
       text: >-
-        Visual dashboards fusing social media, mobile telecommunication and IoT data, co-developed with
-        the DensityDesign Lab of Politecnico di Milano and Telecom Italia; exhibited at Milan Design
-        Week 2014 and EXPO Milano 2015. IEEE MultiMedia Best Paper Award 2016.
+        Visual dashboards fusing social media, mobile and IoT data, co-developed with the DensityDesign Lab
+        of Politecnico di Milano and Telecom Italia and exhibited at Milan Design Week 2014 and EXPO Milano
+        2015. IEEE MultiMedia Best Paper Award 2016.
     - title: "Fluxedo"
       meta: "2015"
       text: >-
