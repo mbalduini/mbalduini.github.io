@@ -62,13 +62,13 @@ author:
     - label: "DBLP"
       icon: "fas fa-fw fa-book"
       url: "https://dblp.org/pid/122/5489.html"
-    # TODO: uncomment when the URLs are available
-    # - label: "ORCID"
-    #   icon: "fab fa-fw fa-orcid"
-    #   url: "TODO_ORCID_URL"
-    # - label: "Google Scholar"
-    #   icon: "fab fa-fw fa-google-scholar"
-    #   url: "TODO_SCHOLAR_URL"
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0000-0002-2397-2166"
+    - label: "Google Scholar"
+      icon: "fab fa-fw fa-google-scholar"
+      url: "https://scholar.google.com/citations?user=dHyc5d0AAAAJ"
+      display: "Google Scholar profile"
 
 defaults:
   # _pages
