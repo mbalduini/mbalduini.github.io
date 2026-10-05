@@ -14,7 +14,7 @@ At **Quantia Consulting** he designs data platforms and semantic data integratio
 
 At **Motus ml** he runs operations and delivery for a company bringing machine learning where the data is: streaming models that learn incrementally and run on resource-constrained devices for predictive maintenance, and generative AI systems for industrial quality — including a self-hosted RAG platform running open models on private GPU infrastructure, and AI tools for test-report analysis, defect analytics, and visual inspection in the aerospace sector.
 
-In research, he led the semantic knowledge toolbox of the Horizon 2020 project Equal-Life, leads data enrichment, integration, and dashboard activities in the Horizon Europe project TRIAD, and coordinates data work in AIS4UM, a Regione Lombardia project on AI safety for smart urban mobility.
+In research, he led WP9 (Tools, Training and Implementation) of the Horizon 2020 project Equal-Life, developing the Equal-Life Toolkit, leads data enrichment, integration, and dashboard activities in the Horizon Europe project TRIAD, and coordinates data work in AIS4UM, a Regione Lombardia project on AI safety for smart urban mobility.
 
 ## Timeline
 
@@ -24,7 +24,7 @@ In research, he led the semantic knowledge toolbox of the Horizon 2020 project E
   <li><span class="timeline__year">2014–2015</span> CitySensing at Milan Design Week and EXPO Milano 2015</li>
   <li><span class="timeline__year">2015</span> Co-founds Fluxedo</li>
   <li><span class="timeline__year">2019</span> PhD in Computer Science, Politecnico di Milano; leads the foundation of Quantia Consulting</li>
-  <li><span class="timeline__year">2020–2025</span> Equal-Life (Horizon 2020): semantic knowledge toolbox</li>
+  <li><span class="timeline__year">2020–2025</span> Equal-Life (Horizon 2020), WP9 lead: Equal-Life Toolkit</li>
   <li><span class="timeline__year">2023</span> Co-founds Motus ml, Politecnico di Milano spin-off</li>
   <li><span class="timeline__year">2025–</span> AIS4UM (Regione Lombardia)</li>
   <li><span class="timeline__year">2026–</span> TRIAD (Horizon Europe), WP7 lead</li>

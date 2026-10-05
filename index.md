@@ -4,7 +4,7 @@ author_profile: true
 permalink: /
 feature_row:
   - title: "Knowledge Graphs & Semantic Data Integration"
-    excerpt: "Making heterogeneous data connected, queryable and FAIR — from research-project toolboxes to enterprise data platforms."
+    excerpt: "Making heterogeneous data connected, queryable and FAIR — from research-project toolkits to enterprise data platforms."
     url: "/projects/#knowledge-graphs"
     btn_label: "Projects"
     btn_class: "btn--primary"
