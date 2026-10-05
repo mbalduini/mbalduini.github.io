@@ -212,3 +212,12 @@ $doc-font-size-x-large: 18px;
     }
   }
 }
+
+/* No footer: hide the theme's empty footer container */
+.page__footer {
+  display: none;
+}
+
+.initial-content {
+  padding-bottom: 3em;
+}
