@@ -21,11 +21,12 @@
     - title: "Equal-Life"
       meta: "Horizon 2020, 2020–2025"
       text: >-
-        European project on how physical and social environments shape children's mental health and
-        development, coordinated by RIVM. I led the design and development of the Equal-Life toolbox —
-        an exploratory tool and a semantic knowledge tool that make the project's metadata, documents,
-        models, protocols and code navigable — refined through co-design workshops with stakeholders
-        across Europe.
+        European project on the early-life exposome — how physical, social and internal exposures shape
+        children's mental health and development — coordinated by RIVM. I was technical and operational
+        leader of WP9 (Tools, Training and Implementation): defining requirements from the outputs and data
+        formats of the other work packages, and developing the Equal-Life Toolkit, a software and
+        documentation toolkit that enables the reuse and replication of the project's exposome data
+        integration and exploration approaches.
       links:
         - label: "Project website"
           url: "https://www.equal-life.eu/en"

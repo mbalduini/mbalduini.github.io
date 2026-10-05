@@ -1,6 +1,7 @@
 ---
 permalink: /publications/
 title: "Publications"
+description: "Publications and awards of Marco Balduini: journal and conference papers, tutorials and book chapters, with DOI and BibTeX links."
 toc: true
 toc_label: "Publications"
 toc_sticky: true
