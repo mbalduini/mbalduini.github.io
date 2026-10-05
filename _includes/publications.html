@@ -1,0 +1,27 @@
+{% comment %}
+  Renders the publications of one type from _data/publications.yml, newest first.
+  Usage: {% include publications.html type="conference" by_year=true %}
+{% endcomment %}
+{%- assign pubs = site.data.publications | where: "type", include.type -%}
+{%- assign groups = pubs | group_by: "year" | sort: "name" | reverse -%}
+{%- for group in groups -%}
+{%- if include.by_year %}
+<h3 class="pub-year">{{ group.name }}</h3>
+{%- endif %}
+<ul class="pub-list">
+  {%- for p in group.items %}
+  <li class="pub"{% if p.id %} id="{{ p.id }}"{% endif %}>
+    <span class="pub__authors">{{ p.authors | join: ", " }}:</span>
+    <strong class="pub__title">{{ p.title }}.</strong>
+    <span class="pub__venue">{{ p.venue }}</span>
+    <span class="pub__links">
+      {%- if p.doi %} <a href="https://doi.org/{{ p.doi }}">DOI</a>{% endif -%}
+      {%- if p.url %} <a href="{{ p.url }}">{% if p.url contains ".pdf" %}PDF{% else %}Link{% endif %}</a>{% endif -%}
+      {%- if p.arxiv %} <a href="https://arxiv.org/abs/{{ p.arxiv }}">arXiv</a>{% endif -%}
+      {%- if p.bibtex %} <a href="{{ p.bibtex }}">BibTeX</a>{% endif -%}
+      {%- if p.rdf %} <a href="{{ p.rdf }}">RDF</a>{% endif -%}
+    </span>
+  </li>
+  {%- endfor %}
+</ul>
+{%- endfor %}

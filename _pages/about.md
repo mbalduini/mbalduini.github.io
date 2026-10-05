@@ -3,12 +3,28 @@ permalink: /about/
 title: "About"
 ---
 
-I am the CEO of Quantia Consulting and I hold a PhD in Computer Science from Politecnico di Milano. 
+Marco Balduini is CEO of Quantia Consulting and co-founder and COO of Motus ml. He holds a PhD in Computer Science from Politecnico di Milano and works where research meets industry: Knowledge Graphs and semantic data integration, generative AI systems organizations can trust and run, and machine learning that learns continuously at the edge.
 
-My know-how includes Big Data, Data Processing, Semantic technologies, Data integration and Data Science. I was actively involved in several European and international research projects. Between 2010 and 2011, within the FP7 LarKC project, I was one of the main contributor of BOTTARI, an innovative Augmented Reality Mobile App for tourists in Seoul powered by semantic, continuous and predictive social media analysis co-designed by Politecnico di Milano, SIEMENS and Saltlux (the top-1 Natural Language Processing company in Korea). BOTTARI won the Semantic Web Challenge in 2011. 
+His research roots are in semantic technologies and stream reasoning. Within the FP7 LarKC project he was a main contributor to BOTTARI, an augmented-reality app for tourists in Seoul powered by continuous social media analysis, which won the Semantic Web Challenge 2011. Between 2012 and 2018 he worked on the analysis of heterogeneous urban data streams — social media, mobile telecommunications, IoT — in EIT Digital and H2020 projects with industrial partners including Telecom Italia and Siemens. The CitySensing dashboards he co-developed were exhibited at Milan Design Week 2014 and at EXPO Milano 2015, and the related paper received the IEEE MultiMedia Best Paper Award 2016.
 
-Between 2012 and 2018, I contributed as researcher to the Stream Reasoning research field and as practitioner to several H2020 projects funded by EIT Digital related to the analysis of streaming heterogeneous urban data in collaboration with Telecom Italia, Olivetti, F-Secure and Siemens. My focus was on the ingestion, analysis and visualization of heterogeneous stream of spatio-temporal data from Social Media, Mobile Telecommunication and IoT. The visual dashboards, which I co-developed with the Density Design Lab of Politecnico di Milano and Telecom Italia, were exhibited to the general public in 2014 during the Milan Design Week and in 2015 as part of the digital signage of Milano EXPO. 
+In 2015 he co-founded Fluxedo, a startup focused on continuous visual analytics. In 2019 he led the foundation of Quantia Consulting, and in 2023 he co-founded Motus ml, a benefit company and spin-off of Politecnico di Milano.
 
-In 2015, I co-founded Fluxedo, an innovative startup focused on continuous visual analytics. In particular, the first product of Fluxedo for social media monitoring exploited the heterogeneous data stream processing engine I developed in my PhD thesis. 
+At **Quantia Consulting** he designs data platforms and semantic data integration solutions, and leads the design and delivery of data and AI programs for companies and professionals, from data foundations to AI project management.
 
-Thanks to my ten-years long experience in data-driven innovation, in 2019 I took a leading role in the foundation of Quantia Consulting, an innovative company devoted to support enterprises and organizations in their data-driven innovation journey.
+At **Motus ml** he runs operations and delivery for a company bringing machine learning where the data is: streaming models that learn incrementally and run on resource-constrained devices for predictive maintenance, and generative AI systems for industrial quality — including a self-hosted RAG platform running open models on private GPU infrastructure, and AI tools for test-report analysis, defect analytics, and visual inspection in the aerospace sector.
+
+In research, he led the semantic knowledge toolbox of the Horizon 2020 project Equal-Life, leads data enrichment, integration, and dashboard activities in the Horizon Europe project TRIAD, and coordinates data work in AIS4UM, a Regione Lombardia project on AI safety for smart urban mobility.
+
+## Timeline
+
+<ol class="timeline">
+  <li><span class="timeline__year">2011</span> BOTTARI wins the Semantic Web Challenge (FP7 LarKC)</li>
+  <li><span class="timeline__year">2012–2018</span> Stream reasoning and urban data science research at Politecnico di Milano (EIT Digital, H2020)</li>
+  <li><span class="timeline__year">2014–2015</span> CitySensing at Milan Design Week and EXPO Milano 2015</li>
+  <li><span class="timeline__year">2015</span> Co-founds Fluxedo</li>
+  <li><span class="timeline__year">2019</span> PhD in Computer Science, Politecnico di Milano; leads the foundation of Quantia Consulting</li>
+  <li><span class="timeline__year">2020–2025</span> Equal-Life (Horizon 2020): semantic knowledge toolbox</li>
+  <li><span class="timeline__year">2023</span> Co-founds Motus ml, Politecnico di Milano spin-off</li>
+  <li><span class="timeline__year">2025–</span> AIS4UM (Regione Lombardia)</li>
+  <li><span class="timeline__year">2026–</span> TRIAD (Horizon Europe), WP7 lead</li>
+</ol>

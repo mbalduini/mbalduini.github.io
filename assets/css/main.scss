@@ -1,0 +1,115 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+/* Home: four pillars in a 2x2 grid instead of the theme's 3 columns */
+.pillars .feature__item {
+  @include breakpoint($small) {
+    width: span(6 of 12);
+
+    &:nth-child(n) {
+      clear: none;
+      margin-inline-start: gutter(of 12);
+    }
+
+    &:nth-child(2n + 1) {
+      clear: both;
+      margin-inline-start: 0;
+    }
+  }
+
+  @include breakpoint($small) {
+    margin-bottom: 1.5em;
+  }
+
+  .archive__item-title {
+    font-size: 1.1em;
+  }
+}
+
+.now-updated {
+  color: $muted-text-color;
+  font-size: $type-size-6;
+}
+
+/* About: vertical timeline */
+.timeline {
+  list-style: none;
+  margin-inline-start: 0;
+  padding-inline-start: 1.25em;
+  border-inline-start: 2px solid $border-color;
+
+  li {
+    position: relative;
+    margin-bottom: 1em;
+
+    &::before {
+      content: "";
+      position: absolute;
+      inset-inline-start: calc(-1.25em - 6px);
+      top: 0.45em;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: $primary-color;
+    }
+  }
+}
+
+.timeline__year {
+  display: block;
+  font-weight: bold;
+  font-size: $type-size-6;
+  color: $primary-color;
+}
+
+/* Publications */
+.pub-profiles .btn {
+  margin: 0 0.25em 0.5em 0;
+}
+
+.pub-list {
+  list-style: none;
+  margin-inline-start: 0;
+  padding-inline-start: 0;
+}
+
+.pub {
+  margin-bottom: 1.25em;
+  font-size: $type-size-5;
+}
+
+.pub__links {
+  display: block;
+  font-size: $type-size-6;
+
+  a + a {
+    margin-inline-start: 0.75em;
+  }
+}
+
+.pub-year {
+  font-size: $type-size-5;
+  color: $muted-text-color;
+}
+
+/* Contact */
+.contact-links {
+  list-style: none;
+  margin-inline-start: 0;
+  padding-inline-start: 0;
+
+  li {
+    margin-bottom: 0.5em;
+  }
+
+  i {
+    width: 1.5em;
+  }
+}
