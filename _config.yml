@@ -28,6 +28,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - screenshots
+  - cv-aggiornato
 
 # Plugins (previously gems:)
 plugins:
