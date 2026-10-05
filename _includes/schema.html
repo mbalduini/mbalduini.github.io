@@ -1,0 +1,37 @@
+{%- comment -%}
+  Overrides the theme's _includes/schema.html (Minimal Mistakes 4.28.1), included by
+  seo.html on the home page only. sameAs is built from the author links listed below.
+{%- endcomment -%}
+{%- assign same_as_labels = "LinkedIn,GitHub,DBLP,ORCID,Google Scholar" | split: "," -%}
+{%- assign same_as = "" | split: "" -%}
+{%- for link in site.author.links -%}
+  {%- if same_as_labels contains link.label -%}
+    {%- assign same_as = same_as | push: link.url -%}
+  {%- endif -%}
+{%- endfor -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": {{ site.author.name | jsonify }},
+  "image": {{ site.author.avatar | absolute_url | jsonify }},
+  "url": {{ '/' | absolute_url | jsonify }},
+  "jobTitle": "CEO, Quantia Consulting; Co-founder & COO, Motus ml",
+  "worksFor": [
+    { "@type": "Organization", "name": "Quantia Consulting", "url": "https://www.quantiaconsulting.com" },
+    { "@type": "Organization", "name": "Motus ml", "url": "https://motusml.com" }
+  ],
+  "alumniOf": { "@type": "CollegeOrUniversity", "name": "Politecnico di Milano" },
+  "sameAs": {{ same_as | jsonify }},
+  "knowsAbout": [
+    "Knowledge Graphs",
+    "Semantic Web",
+    "Data Integration",
+    "Generative AI",
+    "Retrieval-Augmented Generation",
+    "Streaming Machine Learning",
+    "Edge AI",
+    "Stream Processing"
+  ]
+}
+</script>
