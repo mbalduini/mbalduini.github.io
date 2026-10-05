@@ -16,6 +16,8 @@ At **Motus ml** he runs operations and delivery for a company bringing machine l
 
 In research, he led WP9 (Tools, Training and Implementation) of the Horizon 2020 project Equal-Life, developing the Equal-Life Toolkit, leads data enrichment, integration, and dashboard activities in the Horizon Europe project TRIAD, and coordinates data work in AIS4UM, a Regione Lombardia project on AI safety for smart urban mobility.
 
+[Download CV (PDF)](/assets/files/marco-balduini-cv.pdf){: .btn .btn--inverse}
+
 ## Timeline
 
 <ol class="timeline">

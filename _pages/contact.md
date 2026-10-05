@@ -18,3 +18,5 @@ For collaborations, projects or training, the best way to reach me is email or L
   </li>
 {%- endfor %}
 </ul>
+
+[Download CV (PDF)](/assets/files/marco-balduini-cv.pdf){: .btn .btn--inverse}
