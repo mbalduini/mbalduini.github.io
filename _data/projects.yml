@@ -1,0 +1,90 @@
+# Projects page, rendered by _pages/projects.html with _includes/cards.html.
+# Each item: title, meta (period / programme), text (Markdown), links (label + url).
+
+- id: funded-research
+  title: "Funded research"
+  items:
+    - title: "TRIAD"
+      meta: "Horizon Europe, 2026–"
+      text: >-
+        "Balancing Foundational and AI Competences for Inclusive, Well-being-Oriented Education".
+        I lead WP7 (Data Enrichment, Integration and Exploratory Dashboard): consolidating pilot data
+        and enriching it with external datasets, building an interactive web dashboard, and publishing
+        APIs and metadata following FAIR and Frictionless Data principles.
+    - title: "AIS4UM — AI-Safety 4 Smart Urban Mobility"
+      meta: "Regione Lombardia, 2025–"
+      text: >-
+        I am responsible for data management, integration and analysis and coordinate technical work
+        across partners: a data catalogue of sources for the project use cases, harmonization of
+        geographic data such as the Milan road graph, and a data strategy built on static and open
+        sources to keep use cases independent from partners' real-time feeds.
+    - title: "Equal-Life"
+      meta: "Horizon 2020, 2020–2025"
+      text: >-
+        European project on how physical and social environments shape children's mental health and
+        development, coordinated by RIVM. I led the design and development of the Equal-Life toolbox —
+        an exploratory tool and a semantic knowledge tool that make the project's metadata, documents,
+        models, protocols and code navigable — refined through co-design workshops with stakeholders
+        across Europe.
+      links:
+        - label: "Project website"
+          url: "https://www.equal-life.eu/en"
+
+- id: enterprise-generative-ai
+  title: "Enterprise Generative AI"
+  items:
+    - title: "Self-hosted RAG platform for aerospace"
+      text: >-
+        From prototype to industrialization of a GPU-accelerated retrieval-augmented generation
+        platform for an aerospace company, running open models on private GPU infrastructure.
+    - title: "AI assistants for aerospace qualification"
+      text: >-
+        Tools that support engineers in finding qualification evidence, analysing test reports and
+        working with technical specifications.
+
+- id: knowledge-graphs
+  title: "Knowledge Graphs & Data Platforms"
+  items:
+    - title: "Data platform assessment for semiconductor manufacturing"
+      text: >-
+        Assessment of an existing data platform and design of the TO-BE architecture for a
+        semiconductor company.
+    - title: "LLMs + Knowledge Graphs for test data"
+      text: >-
+        Extraction and validation of textual test data by combining large language models and
+        Knowledge Graphs.
+      links:
+        - label: "ISWC 2024 paper"
+          url: "/publications/#iswc-2024"
+
+- id: edge-industrial-ai
+  title: "Edge & Industrial AI"
+  items:
+    - title: "Predictive maintenance with streaming ML"
+      text: >-
+        Machine learning models that learn incrementally on edge devices and adapt automatically to
+        non-stationary data, for machinery predictive maintenance.
+    - title: "Defect analytics and visual inspection"
+      text: >-
+        Defect analytics and PCB visual inspection for aerospace quality processes.
+
+- id: past-projects
+  title: "Past projects"
+  items:
+    - title: "BOTTARI"
+      meta: "2010–2011, FP7 LarKC"
+      text: >-
+        Augmented-reality mobile app for tourists in Seoul powered by semantic, continuous and
+        predictive social media analysis, co-designed by Politecnico di Milano, Siemens and Saltlux.
+        Winner of the Semantic Web Challenge 2011.
+    - title: "CitySensing"
+      meta: "2014–2015"
+      text: >-
+        Visual dashboards fusing social media, mobile telecommunication and IoT data, co-developed with
+        the DensityDesign Lab of Politecnico di Milano and Telecom Italia; exhibited at Milan Design
+        Week 2014 and EXPO Milano 2015. IEEE MultiMedia Best Paper Award 2016.
+    - title: "Fluxedo"
+      meta: "2015"
+      text: >-
+        Co-founded startup for continuous visual analytics; its first social media monitoring product
+        was built on the heterogeneous stream processing engine from my PhD.

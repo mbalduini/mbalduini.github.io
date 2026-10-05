@@ -1,0 +1,22 @@
+{% comment %}
+  Card grid. Usage: {% include cards.html items=some_list cols=2 %} (cols is optional)
+  Item fields: title, meta (optional), text (Markdown), links (optional list of label + url).
+{% endcomment %}
+<div class="cards{% if include.cols %} cards--{{ include.cols }}{% endif %}">
+  {%- for item in include.items %}
+  <article class="card">
+    <h3 class="card__title">{{ item.title }}</h3>
+    {%- if item.meta %}
+    <p class="card__meta">{{ item.meta }}</p>
+    {%- endif %}
+    <div class="card__text">{{ item.text | markdownify }}</div>
+    {%- if item.links %}
+    <p class="card__links">
+      {%- for link in item.links %}
+      <a href="{{ link.url | relative_url }}">{{ link.label }} &rarr;</a>
+      {%- endfor %}
+    </p>
+    {%- endif %}
+  </article>
+  {%- endfor %}
+</div>

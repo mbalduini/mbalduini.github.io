@@ -119,3 +119,96 @@ $doc-font-size-x-large: 18px;
     width: 1.5em;
   }
 }
+
+/* Tighter vertical rhythm for headings in page content */
+.page__content {
+  h2 {
+    margin-top: 1.75em;
+  }
+
+  h3 {
+    margin-top: 1.5em;
+    margin-bottom: 0.35em;
+  }
+}
+
+/* Section links at the top of Projects */
+.section-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin-bottom: 1em;
+
+  a {
+    padding: 0.3em 0.8em;
+    border: 1px solid $border-color;
+    border-radius: 999px;
+    font-size: $type-size-6;
+    text-decoration: none;
+    color: $text-color;
+
+    &:hover {
+      border-color: $primary-color;
+      color: $primary-color;
+    }
+  }
+}
+
+/* Card grid (Projects, Teaching) */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1em;
+  margin: 0.75em 0 1.5em;
+}
+
+.cards--2 {
+  @include breakpoint($medium) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 1.15em;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  background: $background-color;
+
+  .card__title {
+    margin: 0 0 0.25em;
+    font-size: 1.05em;
+    line-height: 1.3;
+  }
+
+  .card__meta {
+    margin: 0 0 0.5em;
+    font-size: 0.8em;
+    color: $muted-text-color;
+  }
+
+  .card__text {
+    font-size: 0.9em;
+    line-height: 1.55;
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .card__links {
+    margin: auto 0 0;
+    padding-top: 0.75em;
+    font-size: 0.8em;
+    font-weight: bold;
+
+    a {
+      text-decoration: none;
+    }
+
+    a + a {
+      margin-inline-start: 1em;
+    }
+  }
+}
