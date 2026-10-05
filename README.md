@@ -1,27 +1,42 @@
-# Minimal Mistakes remote theme starter
+# marcobalduini.com
 
-Fork this repo for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+Personal website of Marco Balduini, built with [Jekyll](https://jekyllrb.com/) and the
+[Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) theme, published with
+GitHub Pages from the `master` branch.
 
-Contains basic configuration to get you a site with:
+## Structure
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+- `_config.yml`: site settings, author sidebar, theme version (`remote_theme`, pinned).
+- `_data/navigation.yml`: top menu.
+- `_data/publications.yml`: publications list, rendered by `_includes/publications.html`.
+- `index.md`: home page (intro, pillars, Now section).
+- `_pages/`: About, Projects, Teaching, Publications, Contact, 404.
+- `_includes/schema.html`: overrides the theme file (4.28.1) with a schema.org `Person`
+  JSON-LD block. Re-check it whenever the theme version is bumped.
+- `_pages/awards.md`: redirect from `/awards/` to `/publications/#awards`.
+- `assets/css/main.scss`: theme stylesheet plus a few custom rules (home grid, timeline,
+  publications).
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+## Local build (Docker)
 
----
+No local Ruby is needed:
 
-## Troubleshooting
+```bash
+docker run --rm -it -p 4000:4000 -v "$PWD":/srv/site -v mb-gems:/usr/local/bundle \
+  -w /srv/site ruby:3.3 \
+  bash -c "bundle install && bundle exec jekyll serve --host 0.0.0.0 --force_polling"
+```
 
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
+Then open http://localhost:4000.
 
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+Link check on a fresh build:
+
+```bash
+docker run --rm -v "$PWD":/srv/site -v mb-gems:/usr/local/bundle -w /srv/site ruby:3.3 \
+  bash -c "bundle install && bundle exec jekyll build && bundle exec htmlproofer _site --disable-external"
+```
+
+## Updating the theme
+
+Change the version in `remote_theme: mmistakes/minimal-mistakes@<version>`, rebuild,
+compare `_includes/schema.html` with the theme's version and check every page.
