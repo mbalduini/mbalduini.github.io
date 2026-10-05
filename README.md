@@ -9,13 +9,15 @@ GitHub Pages from the `master` branch.
 - `_config.yml`: site settings, author sidebar, theme version (`remote_theme`, pinned).
 - `_data/navigation.yml`: top menu.
 - `_data/publications.yml`: publications list, rendered by `_includes/publications.html`.
+- `_data/projects.yml`, `_data/teaching.yml`: Projects and Teaching entries, rendered as
+  cards by `_includes/cards.html`.
 - `index.md`: home page (intro, pillars, Now section).
 - `_pages/`: About, Projects, Teaching, Publications, Contact, 404.
 - `_includes/schema.html`: overrides the theme file (4.28.1) with a schema.org `Person`
   JSON-LD block. Re-check it whenever the theme version is bumped.
 - `_pages/awards.md`: redirect from `/awards/` to `/publications/#awards`.
-- `assets/css/main.scss`: theme stylesheet plus a few custom rules (home grid, timeline,
-  publications).
+- `assets/css/main.scss`: theme stylesheet plus a few custom rules (font size, home grid,
+  timeline, cards, publications).
 
 ## Local build (Docker)
 

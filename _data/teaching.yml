@@ -1,0 +1,17 @@
+# Teaching page, rendered by _pages/teaching.html with _includes/cards.html.
+
+- title: "Corporate data & AI programs"
+  text: >-
+    Multi-module curricula for large enterprises, from data foundations (exploratory analysis, data
+    quality, visualization) to applied AI, delivered in-person and online.
+- title: "AI Project Manager"
+  text: >-
+    Postgraduate professional course on managing AI projects (now in its third edition).
+- title: "Master's programs"
+  text: >-
+    Guest sessions on data and AI in corporate master's programs.
+- title: "Academic teaching and tutorials"
+  text: >-
+    Teaching materials for university courses; tutorials on web stream processing at
+    [Reasoning Web 2018](/publications/#rweb-2018) and [The Web Conference 2022](/publications/#www-2022).
+    Lessons learned published at [ICWE 2020](/publications/#icwe-2020).

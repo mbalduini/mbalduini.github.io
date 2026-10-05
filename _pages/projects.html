@@ -1,0 +1,15 @@
+---
+permalink: /projects/
+title: "Projects"
+classes: wide
+---
+<nav class="section-nav" aria-label="Project areas">
+  {%- for section in site.data.projects %}
+  <a href="#{{ section.id }}">{{ section.title }}</a>
+  {%- endfor %}
+</nav>
+
+{% for section in site.data.projects %}
+<h2 id="{{ section.id }}">{{ section.title }}</h2>
+{% include cards.html items=section.items %}
+{% endfor %}
