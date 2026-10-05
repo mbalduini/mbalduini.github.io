@@ -2,7 +2,22 @@
 # type: thesis | journal | conference | chapter | tutorial
 # Links: doi (bare DOI), url (PDF or landing page when there is no DOI), arxiv, bibtex, rdf (DBLP).
 # Entries are sorted by year (descending) at render time; order within a year is kept.
-# TODO: add DBLP bibtex/rdf links for iswc-2024, www-2022 and icwe-2020.
+# TODO: add DBLP bibtex/rdf links for eswc-2026, iswc-2024, www-2022, icwe-2020 and the EEEIC 2019 paper.
+
+- id: "eswc-2026"
+  type: "conference"
+  year: 2026
+  authors:
+    - "Antonio De Santis"
+    - "Marco Balduini"
+    - "Matteo Belcao"
+    - "Andrea Proia"
+    - "Marco Brambilla"
+    - "Emanuele Della Valle"
+  title: "LLM-Enhanced Semantic Data Integration of Electronic Component Qualifications in the Aerospace Domain"
+  venue: "ESWC 2026: 398-415"
+  doi: "10.1007/978-3-032-25159-6_21"
+  arxiv: "2603.20094"
 
 - id: "iswc-2024"
   type: "conference"
@@ -134,6 +149,21 @@
   doi: "10.1016/j.websem.2012.06.004"
   bibtex: "https://dblp.org/rec/journals/ws/BalduiniCDVHLKT12.bib"
   rdf: "https://dblp.org/rec/journals/ws/BalduiniCDVHLKT12.nt"
+
+- type: "conference"
+  year: 2019
+  authors:
+    - "Enea Bionda"
+    - "Carlo Tornelli"
+    - "Marco Brambilla"
+    - "Marco Balduini"
+    - "Giuseppe Mauri"
+    - "Davide Della Giustina"
+    - "Fabrizio Garrone"
+    - "Emanuele Della Valle"
+  title: "The Smart Grid Semantic Platform: Synergy between IEC Common Information Model (CIM) and Big Data"
+  venue: "EEEIC / I&CPS Europe 2019: 1-6"
+  doi: "10.1109/EEEIC.2019.8783632"
 
 - type: "conference"
   year: 2019
